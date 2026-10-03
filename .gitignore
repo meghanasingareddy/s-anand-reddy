@@ -31,3 +31,5 @@ yarn-error.log*
 slice_*.png
 mobile_full.png
 figma_thumbnail*.png
+
+.vercel

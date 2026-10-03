@@ -3,46 +3,46 @@
 export default function LeadershipJourney() {
   const milestones = [
     {
-      period: "1992",
-      title: "Director — Marketing & Projects",
-      company: "Sagar Cements Limited",
+      period: "18+ Years Experience",
+      title: "Learning & Organizational Development",
+      role: "Cross-Industry HR & L&OD Practitioner",
       description:
-        "Inducted into the board of directors. Structured the foundational retail and institutional sales networks across Andhra Pradesh and oversaw early capacity additions.",
-      highlights: ["Market Network Inception", "Capacity Debottlenecking", "Brand Building"],
+        "Over 18 years of experience designing and executing comprehensive Learning and Organizational Development frameworks, competency mapping, training needs analysis, and employee capability architectures across diverse industry sectors.",
+      highlights: ["L&OD Frameworks", "Training Needs Analysis", "Employee Development"],
     },
     {
-      period: "2008 – 2018",
-      title: "Joint Managing Director",
-      company: "Sagar Cements Limited",
+      period: "Leadership & Capability",
+      title: "Leadership Development & Coaching",
+      role: "Talent & Organizational Strategist",
       description:
-        "Spearheaded multi-plant operations, joint ventures, thermal power integrations, and geographical expansion into neighboring high-growth regional markets.",
-      highlights: ["Multi-Plant Expansion", "Thermal & Power Integration", "Joint Venture Leadership"],
+        "Specializing in transformative leadership, managerial coaching, and organizational behavior. Dedicated to building leadership pipelines, mentoring high-potential talent, and fostering continuous learning environments.",
+      highlights: ["Leadership Capability", "Executive Coaching", "Continuous Learning Culture"],
     },
     {
-      period: "2018 – Present",
-      title: "Managing Director",
-      company: "Sagar Cements Limited",
+      period: "Current Role",
+      title: "Head of Learning & Development",
+      role: "Hetero",
       description:
-        "Steering overall corporate strategy, sustainable green energy investments, technological modernization, and marquee acquisitions including Andhra Cements Limited.",
-      highlights: ["Andhra Cements Acquisition", "ESG & Green Energy", "10+ MTPA Strategic Vision"],
+        "Leading organizational learning strategies and talent development initiatives at Hetero, driving large-scale upskilling, behavioral interventions, and learning ecosystems that empower workforce potential.",
+      highlights: ["Hetero L&D Leadership", "Enterprise Upskilling", "Transformative Culture"],
     },
   ];
 
   return (
-    <section id="journey" className="py-24 md:py-32 bg-[#0B0E14] text-[#FAF8F5] relative overflow-hidden">
+    <section id="experience" className="py-24 md:py-32 bg-[#0B0E14] text-[#FAF8F5] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="mb-16">
           <div className="inline-flex items-center gap-2 mb-3">
             <span className="text-[12px] font-mono tracking-[0.25em] text-[#C5A880] uppercase font-semibold">
-              02 / Leadership Journey
+              02 / Professional Journey
             </span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-serif-luxury font-light tracking-tight text-[#FAF8F5]">
-            Leadership journey
+            Professional journey
           </h2>
           <p className="text-[17px] text-[#8E97A6] font-serif-luxury italic mt-2 max-w-2xl">
-            Milestones across three decades of industrial scaling, transformation, and governance.
+            Over 18 years of dedicated focus on human capability building, leadership transformation, and organizational learning.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export default function LeadershipJourney() {
               } border-[#202735]`}
             >
               <div>
-                {/* Year tag */}
+                {/* Period tag */}
                 <div className="text-sm font-mono tracking-[0.2em] text-[#C5A880] font-semibold mb-3">
                   {item.period}
                 </div>
@@ -67,7 +67,7 @@ export default function LeadershipJourney() {
                 </h3>
 
                 <div className="text-xs text-[#8E97A6] font-medium tracking-wide mb-5">
-                  {item.company}
+                  {item.role}
                 </div>
 
                 {/* Description */}

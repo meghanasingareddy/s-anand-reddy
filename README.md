@@ -1,8 +1,27 @@
-# Dr. S. Anand Reddy — Executive Portfolio
+# Dr. S. Anand Reddy — Head of Learning & Development, Hetero
 
-Executive portfolio website for **Dr. S. Anand Reddy**, Managing Director of **Sagar Cements Limited**.
+Executive portfolio website for **Dr. S. Anand Reddy**, Head of Learning & Development at **Hetero**.
 
-Built to reflect the luxury corporate identity, three-decade industrial leadership journey, strategic pillars, and ESG initiatives designed in Figma.
+A seasoned HR and Learning & Development professional with over 18 years of experience in Learning and Organizational Development across diverse industries. Dedicated to developing people, building leadership capabilities, enabling continuous learning, and creating learning cultures within organizations.
+
+## 🌟 Professional Highlights
+
+- **Role:** Head of Learning & Development, Hetero
+- **Domain:** Human Resources / Learning & Development / Organizational Development
+- **Experience:** 18+ Years of experience in Learning & Organizational Development across diverse industries
+- **Focus Areas:**
+  - Learning & Development (L&D)
+  - Learning and Organizational Development
+  - Leadership Development & Coaching
+  - Employee Development & Training
+  - Transformative Leadership
+  - Talent Development & Upskilling
+  - Building Continuous Learning Cultures
+- **Education & Affiliations:**
+  - XLRI Jamshedpur — Management Development Program (2020–2021)
+  - Indian Society for Training and Development (ISTD) — Executive Committee Member & Chairman, Hyderabad Chapter
+  - National Institute of Personnel Management (NIPM) — Executive Committee Member
+- **LinkedIn:** [https://www.linkedin.com/in/dr-s-anand-reddy-b1385712/](https://www.linkedin.com/in/dr-s-anand-reddy-b1385712/)
 
 ## 🚀 Built With
 
@@ -32,7 +51,7 @@ Built to reflect the luxury corporate identity, three-decade industrial leadersh
 npm run build
 ```
 
-## 🌐 Deployment to Vercel
+## 🌐 Deploy to Vercel
 
 ```bash
 npx vercel

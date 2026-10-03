@@ -20,9 +20,9 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
   }, []);
 
   const navLinks = [
-    { name: "About", href: "#profile" },
-    { name: "Journey", href: "#journey" },
-    { name: "Focus", href: "#focus" },
+    { name: "About", href: "#about" },
+    { name: "Experience", href: "#experience" },
+    { name: "Areas of Focus", href: "#expertise" },
     { name: "Perspective", href: "#perspective" },
     { name: "Initiatives", href: "#initiatives" },
   ];
@@ -42,30 +42,39 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
             DR. S. ANAND REDDY
           </span>
           <span className="text-[10px] tracking-[0.2em] text-[#7A746B] uppercase font-medium mt-0.5">
-            Managing Director • Sagar Cements
+            Head of Learning &amp; Development • Hetero
           </span>
         </a>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-7">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="text-[13px] font-medium tracking-wider text-[#4A453E] hover:text-[#11161F] transition-colors uppercase"
+              className="text-[12.5px] font-medium tracking-wider text-[#4A453E] hover:text-[#11161F] transition-colors uppercase"
             >
               {link.name}
             </a>
           ))}
         </nav>
 
-        {/* CTA Button */}
-        <div className="hidden md:flex items-center">
+        {/* Desktop Actions */}
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="https://www.linkedin.com/in/dr-s-anand-reddy-b1385712/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full border border-[#D6CBB8] hover:border-[#11161F] text-[#3B352C] hover:text-[#11161F] text-[12px] font-medium tracking-wider uppercase transition-colors"
+          >
+            <span>LinkedIn</span>
+            <ArrowUpRight size={13} />
+          </a>
           <button
             onClick={onOpenContact}
-            className="inline-flex items-center justify-center px-5 py-2 rounded-full bg-[#11161F] hover:bg-[#252D3C] text-[#FAF8F5] text-[13px] font-medium tracking-wider uppercase transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm"
+            className="inline-flex items-center justify-center px-5 py-1.5 rounded-full bg-[#11161F] hover:bg-[#252D3C] text-[#FAF8F5] text-[12px] font-medium tracking-wider uppercase transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm"
           >
-            <span>Contact</span>
+            <span>Connect</span>
           </button>
         </div>
 
@@ -94,7 +103,16 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               {link.name}
             </a>
           ))}
-          <div className="pt-2">
+          <div className="pt-2 flex flex-col gap-2.5">
+            <a
+              href="https://www.linkedin.com/in/dr-s-anand-reddy-b1385712/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full text-center py-2.5 rounded-full border border-[#D6CBB8] text-[#11161F] text-[13px] font-medium tracking-wider uppercase flex items-center justify-center gap-1.5"
+            >
+              <span>View LinkedIn Profile</span>
+              <ArrowUpRight size={14} />
+            </a>
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
@@ -102,7 +120,7 @@ export default function Navbar({ onOpenContact }: NavbarProps) {
               }}
               className="w-full text-center py-2.5 rounded-full bg-[#11161F] text-[#FAF8F5] text-[13px] font-medium tracking-wider uppercase"
             >
-              Contact
+              Connect
             </button>
           </div>
         </div>

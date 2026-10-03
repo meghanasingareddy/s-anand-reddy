@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ArrowRight } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 export default function IndustryPerspective() {
   const [activeTab, setActiveTab] = useState(0);
@@ -9,35 +9,35 @@ export default function IndustryPerspective() {
   const perspectives = [
     {
       id: "01",
-      title: "Cement as the bedrock of nation-building",
+      title: "Building cultures of continuous learning",
       summary:
-        "India's relentless pace of urbanisation, high-speed rail, expressways, and affordable housing initiatives create a foundational multi-decade growth corridor for high-performance cement manufacturing.",
+        "Cultivating environments where learning is integrated directly into daily work, empowering employees to continuously adapt, upskill, and thrive.",
       quote:
-        "Cement is not merely a commodity; it is the physical foundation upon which modern India's economic aspirations and urban infrastructure are built.",
+        "Building a culture of continuous learning is the most resilient foundation an organization can create for long-term growth.",
     },
     {
       id: "02",
-      title: "Strategic marketing & distribution depth",
+      title: "Transformative leadership & capability",
       summary:
-        "Industrial scale requires deep local root systems. Long-term customer loyalty is earned through prompt technical support, unyielding quality consistency, and enduring dealer relationships.",
+        "Developing leaders who inspire, coach, and elevate their teams, creating psychological safety and driving collective organizational success.",
       quote:
-        "A manufacturing powerhouse is only as resilient as the distribution network and dealer relationships supporting it daily in the field.",
+        "True leadership development goes beyond managing tasks—it is about empowering people and unlocking their fullest potential.",
     },
     {
       id: "03",
-      title: "Decarbonisation & energy transition",
+      title: "Strategic Learning & Organizational Development",
       summary:
-        "Integrating waste-heat recovery (WHR) boilers, captive solar installations, and escalating the use of alternative fuels (AFR) are critical to safeguarding margins while meeting national ESG benchmarks.",
+        "Aligning learning frameworks and organizational development directly with business strategy to ensure measurable impact and workforce agility.",
       quote:
-        "Sustainable industrial manufacturing is no longer an ancillary consideration; it is the primary determinant of long-term cost competitiveness.",
+        "When capability development aligns with organizational vision, talent becomes the key catalyst for sustainable innovation.",
     },
     {
       id: "04",
-      title: "Regional economic & community leadership",
+      title: "Professional training & community leadership",
       summary:
-        "Industrial manufacturing plants act as vital anchors for rural prosperity—generating direct employment, fostering local ancillary businesses, and advancing regional healthcare and education.",
+        "Advancing the HR and learning community through active engagement with professional bodies like the Indian Society for Training and Development (ISTD) and NIPM.",
       quote:
-        "Real corporate stewardship means ensuring that the communities surrounding our plants prosper in tandem with our industrial growth.",
+        "Contributing to professional training forums strengthens the entire talent development and human resources ecosystem.",
     },
   ];
 
@@ -48,14 +48,14 @@ export default function IndustryPerspective() {
         <div className="mb-16">
           <div className="inline-flex items-center gap-2 mb-3">
             <span className="text-[12px] font-mono tracking-[0.25em] text-[#8C7A62] uppercase font-semibold">
-              04 / Industry Perspective
+              04 / Leadership Perspective
             </span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-serif-luxury font-light tracking-tight text-[#141820]">
-            Industry perspective
+            Philosophy &amp; insights
           </h2>
           <p className="text-[17px] text-[#736A5E] font-serif-luxury italic mt-2 max-w-2xl">
-            Observations on Indian infrastructure, energy transition, and industrial resilience.
+            Perspectives on human potential, transformative leadership, and continuous learning cultures.
           </p>
         </div>
 
@@ -65,10 +65,10 @@ export default function IndustryPerspective() {
           <div className="lg:col-span-5 bg-[#0B0E14] text-[#FAF8F5] p-8 sm:p-10 rounded-sm flex flex-col justify-between shadow-lg relative overflow-hidden border border-[#1E2430]">
             <div className="relative z-10">
               <span className="text-[11px] font-mono tracking-[0.25em] text-[#C5A880] uppercase font-semibold block mb-8">
-                Executive Perspective
+                Professional Perspective
               </span>
               <p className="text-2xl sm:text-3xl font-serif-luxury font-light leading-snug text-[#FAF8F5] mb-6">
-                &ldquo;A leadership profile shaped by decades of participation in one of India&apos;s essential infrastructure industries.&rdquo;
+                &ldquo;Fostering a culture of continuous learning and transformative leadership is at the heart of building resilient, future-ready organizations.&rdquo;
               </p>
             </div>
 
@@ -77,7 +77,7 @@ export default function IndustryPerspective() {
                 Dr. S. Anand Reddy
               </div>
               <div className="text-[11px] text-[#C5A880] tracking-wide mt-0.5">
-                Managing Director, Sagar Cements Limited
+                Head of Learning &amp; Development, Hetero
               </div>
             </div>
 

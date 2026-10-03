@@ -1,62 +1,62 @@
 "use client";
 
-import { Compass, LineChart, Leaf } from "lucide-react";
+import { BrainCircuit, Compass, Users2 } from "lucide-react";
 
 export default function LeadershipFocus() {
   const pillars = [
     {
       num: "01",
-      icon: <LineChart className="w-5 h-5 text-[#8C7A62]" />,
-      title: "Long-horizon business thinking",
+      icon: <BrainCircuit className="w-5 h-5 text-[#8C7A62]" />,
+      title: "Learning & Organizational Development",
       description:
-        "Navigating cyclical industry dynamics with patient capital allocation, disciplined debt management, and future-ready capacity planning.",
+        "Architecting comprehensive employee learning frameworks, diagnostics, training needs assessments, and organizational development programs that align workforce capabilities with strategic goals.",
       points: [
-        "Counter-cyclical capacity expansion",
-        "Prudent balance-sheet governance",
-        "Asset modernization & cost leadership",
+        "Learning & Organizational Development",
+        "Training Needs Analysis (TNA)",
+        "Building continuous learning cultures",
       ],
     },
     {
       num: "02",
       icon: <Compass className="w-5 h-5 text-[#8C7A62]" />,
-      title: "Market & business development",
+      title: "Leadership Development & Coaching",
       description:
-        "Building resilient distribution channels, nurturing multi-decade dealer partnerships, and reinforcing high brand trust across key South and Central Indian states.",
+        "Developing managerial and leadership excellence through structured executive coaching, transformative leadership frameworks, and behavioral capability interventions.",
       points: [
-        "Multi-tier dealer & distributor networks",
-        "Institutional infrastructure partnerships",
-        "Direct-to-market logistical efficiency",
+        "Leadership development programs",
+        "Executive & managerial coaching",
+        "Transformative leadership practices",
       ],
     },
     {
       num: "03",
-      icon: <Leaf className="w-5 h-5 text-[#8C7A62]" />,
-      title: "Corporate leadership & ESG",
+      icon: <Users2 className="w-5 h-5 text-[#8C7A62]" />,
+      title: "Talent Development & Upskilling",
       description:
-        "Pioneering clean energy adoption through captive waste-heat recovery (WHR), green power farms, alternative fuel consumption, and proactive community development.",
+        "Designing sustainable talent development pipelines, employee capability enhancement initiatives, upskilling programs, and fostering workforce engagement.",
       points: [
-        "Captive green energy & solar integration",
-        "Eco-friendly blended cement portfolios",
-        "Grassroots health and education initiatives",
+        "Talent development strategies",
+        "Employee upskilling & training",
+        "Continuous growth & empowerment",
       ],
     },
   ];
 
   return (
-    <section id="focus" className="py-24 md:py-32 bg-[#FAF8F5] text-[#141820]">
+    <section id="expertise" className="py-24 md:py-32 bg-[#FAF8F5] text-[#141820]">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="mb-16">
           <div className="inline-flex items-center gap-2 mb-3">
             <span className="text-[12px] font-mono tracking-[0.25em] text-[#8C7A62] uppercase font-semibold">
-              03 / Strategic Pillars
+              03 / Areas of Focus
             </span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-serif-luxury font-light tracking-tight text-[#141820]">
-            Leadership focus
+            Expertise &amp; focus areas
           </h2>
           <p className="text-[17px] text-[#736A5E] font-serif-luxury italic mt-2 max-w-2xl">
-            Core strategic tenets driving sustainable industrial expansion and long-term shareholder value.
+            Core HR, learning, and talent practices dedicated to developing people and driving continuous learning.
           </p>
         </div>
 
